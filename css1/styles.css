@@ -1,0 +1,187 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@400;500&family=Russo+One&display=swap');
+    
+
+
+
+* { 
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+  scroll-behavior: smooth; 
+  
+  color :black;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+
+a { text-decoration: none;
+    color:inherit;transition: 0.35;
+  font-size: 1rem;font-family:'Russo One', sans-serif; 
+  
+  color:yellow;
+}
+
+
+body{ width: 100%;min-width: 390px;
+    background-color: rgb(220, 239, 246);
+}
+main {
+   max-width: 1200px;
+    margin: auto;
+   text-align: center; 
+}
+
+ li.menu-item :hover  {
+  color:black;
+  font-size:20px;background-color: aliceblue;
+
+}
+
+#logo,h2{display: flex;;align-items: center;letter-spacing: 3px
+
+;padding: 0px 7px; border-radius: 3%;font-size:25px;font-family: 'Sedgwick Ave Display', cursive;
+  color:yellow;
+
+ 
+}
+
+#navbar {
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    height:43px
+    ;
+    position: fixed;top: 0;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.navbar-items {
+    display: flex;
+    list-style: none;
+  
+
+    
+}
+
+ li {
+  padding: 10px;
+}
+
+/* -------------- desde aqui el main--------------*/
+img{ width: 40%; border-radius: 50%; margin: 20px;
+
+}
+
+    
+
+
+.tipo-pc{ margin-top: 20px;
+
+}
+
+
+h1 { font-family: 'Sedgwick Ave Display', cursive; 
+    font-size: 36px;}
+
+p{font-family:'Russo One', sans-serif;
+font-size: 18px;}
+
+/*-------seccion 1-----------*/
+
+.section-main{
+    height: 70%;
+    min-height: 100vh;
+    margin-top: 100px;
+
+}
+.article-inicio{
+  margin: 30px;
+  
+
+}
+
+.boton{ margin-top: 40px;}
+
+button{ background-color:black;
+    color: aliceblue;
+    padding: 10px 28px;
+    border-radius: 30px;
+    border: 5px;
+    font-family: 'Russo One', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer; font-size: 20px;
+}
+
+/*----------seccion 2-----*/
+.hablemos{
+    margin-top: 30%; font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.section-hablemos{
+ background-color: rgb(171, 186, 220);
+ border-radius: 5px;
+;padding: 20px;margin: 15px;
+
+font-size: 18px;
+
+}
+
+h3{ text-align: center;font-size: 28px;
+    margin: 18px;
+}
+.items{display: flex; justify-content:space-around;
+align-items: center;margin: 20px; height: 40vh; 
+}
+
+
+footer{display: flex;
+    height: 90px;
+    background-color: black;
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    ;
+    margin-top: 60px;
+
+} 
+
+#lista{ text-align: left;font-family:'Russo One', sans-serif;
+    font-size: 15px;
+    
+list-style: circle;
+
+}
+
+@media (min-width: 1024px){
+    .section-main{display: flex;
+        flex-direction: row;   margin-top: 100px;
+        
+    }
+   
+    img{ 
+        width: 100%;
+  
+    .article-inicio{
+        text-align: left;
+    }
+}
+}
